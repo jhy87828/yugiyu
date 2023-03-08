@@ -1,0 +1,122 @@
+section {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+
+  .tripple-logo {
+    display: none;
+  }
+  .search-bar {
+    width: 100%;
+    display: flex;
+    div {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+      }
+      div {
+        width: 20%;
+        height: 100%;
+        left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+    }
+    span {
+      width: 100%;
+      display: flex;
+      input {
+        width: 70%;
+      }
+      button {
+        width: 30%;
+        background-color: red;
+        height: 100%;
+        border: none;
+      }
+    }
+  }
+}
+
+.red-line {
+  height: 30px;
+  border: 5px solid red;
+  p {
+    font-size: 15px;
+  }
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+@media (min-width: 1024px) {
+  section {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 1%;
+
+    .tripple-logo {
+      display: flex;
+    }
+    .search-bar {
+      width: 40%;
+      display: flex;
+      div {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+          width: 80%;
+          text-align: center;
+          margin: 0;
+        }
+        div {
+          width: 20%;
+          height: 100%;
+          left: 0;
+          text-align: center;
+          padding-bottom: 10px;
+        }
+      }
+      span {
+        width: 100%;
+        display: flex;
+        input {
+          width: 70%;
+        }
+        button {
+          width: 30%;
+          background-color: red;
+          height: 100%;
+          border: none;
+        }
+      }
+    }
+  }
+
+  .red-line {
+    height: 30px;
+    border: 5px solid red;
+    p {
+      font-size: 15px;
+    }
+  }
+
+  input {
+    outline: none;
+    border: none;
+  }
+}

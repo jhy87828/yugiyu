@@ -1,0 +1,137 @@
+// $circle-diameter-pc: 55px; // Set the diameter of each circle
+// $circle-diameter-mobile: 35px;
+// $overlap-pc: $circle-diameter-pc / 2; // Calculate the overlap based on the circle diameter
+// $overlap-mobile: $circle-diameter-mobile / 2; // Calculate the overlap based on the circle diameter
+
+// @font-face {
+//   font-family: "yg-jalnan";
+//   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+//     format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// // Define the shared styles for the circle element
+// .round {
+//   position: relative;
+//   width: $circle-diameter-mobile;
+//   height: $circle-diameter-mobile;
+//   border: 2px solid white;
+//   border-radius: 70%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: white;
+//   font-family: "yg-jalnan";
+//   font-size: 20px;
+
+//   @media (min-width: 1024px) {
+//     width: $circle-diameter-pc;
+//     height: $circle-diameter-pc;
+//     border: 4px solid white;
+//     font-size: 30px;
+//   }
+// }
+
+// // Define the specific styles for each circle
+// .circle1 {
+//   left: 0;
+
+//   @media (min-width: 1024px) {
+//     left: 0;
+//   }
+// }
+
+// .circle2 {
+//   left: -0.2 * $circle-diameter-mobile;
+
+//   @media (min-width: 1024px) {
+//     left: -0.2 * $circle-diameter-pc;
+//   }
+// }
+
+// .circle3 {
+//   left: -0.4 * $circle-diameter-mobile;
+
+//   @media (min-width: 1024px) {
+//     left: -0.4 * $circle-diameter-pc;
+//   }
+// }
+
+// // Define the specific styles for the yellow and red circles
+// .yw-cl {
+//   background-color: #fad02c;
+// }
+
+// .rd-cl {
+//   background-color: red;
+// }
+
+$circle-diameter-pc: 55px;
+$circle-diameter-mobile: 35px;
+$overlap-pc: calc($circle-diameter-pc / 2);
+$overlap-mobile: calc($circle-diameter-mobile / 2);
+
+@import "./mixin";
+
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.round {
+  position: relative;
+  width: $circle-diameter-mobile;
+  height: $circle-diameter-mobile;
+  border: 2px solid white;
+  border-radius: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "yg-jalnan";
+  font-size: 20px;
+  z-index: 5;
+
+  @include desktop {
+    width: $circle-diameter-pc;
+    height: $circle-diameter-pc;
+    border: 4px solid white;
+    font-size: 30px;
+  }
+}
+
+.circle1 {
+  left: 0;
+
+  @include desktop {
+    left: 0;
+  }
+}
+
+.circle2 {
+  left: -0.2 * $circle-diameter-mobile;
+
+  @include desktop {
+    left: -0.2 * $circle-diameter-pc;
+  }
+}
+
+.circle3 {
+  left: -0.4 * $circle-diameter-mobile;
+
+  @include desktop {
+    left: -0.4 * $circle-diameter-pc;
+  }
+}
+
+.yw-cl {
+  background-color: #fad02c;
+}
+
+.rd-cl {
+  background-color: red;
+}
