@@ -67,8 +67,8 @@
 //   background-color: red;
 // }
 
-$circle-diameter-pc: 55px;
-$circle-diameter-mobile: 35px;
+$circle-diameter-pc: 35px;
+$circle-diameter-mobile: 24px;
 $overlap-pc: calc($circle-diameter-pc / 2);
 $overlap-mobile: calc($circle-diameter-mobile / 2);
 
@@ -93,14 +93,14 @@ $overlap-mobile: calc($circle-diameter-mobile / 2);
   justify-content: center;
   color: white;
   font-family: "yg-jalnan";
-  font-size: 20px;
+  font-size: 12px;
   z-index: 5;
 
   @include desktop {
     width: $circle-diameter-pc;
     height: $circle-diameter-pc;
     border: 4px solid white;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
