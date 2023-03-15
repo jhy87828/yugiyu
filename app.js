@@ -42,7 +42,7 @@ menuButtons.forEach((button) => {
 // timer();
 
 var Swipes = new Swiper(".swiper-container", {
-  slidesPerView: 4,
+  slidesPerView: 5,
   spaceBetween: 0,
   loop: true,
   cssMode: true,
