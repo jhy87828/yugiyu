@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "swiper": "^9.1.0"
   },
   "devDependencies": {
     "node-sass": "^8.0.0",

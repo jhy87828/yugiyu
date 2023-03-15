@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: space-between;
   padding-block: 2%; }
+  .mobile-header .logo {
+    padding-left: 40%; }
   .mobile-header span svg {
     width: 20px;
     height: 20px;
@@ -134,9 +136,9 @@ input {
         width: 100%;
         display: flex; }
         section .search-bar span input {
-          width: 70%; }
+          width: 80%; }
         section .search-bar span button {
-          width: 30%;
+          width: 25%;
           background-color: red;
           height: 100%;
           border: none;
@@ -219,19 +221,23 @@ main {
 .rd-cl {
   background-color: red; }
 
-.logo-line {
+.swiper-container {
   background: white;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; }
-  .logo-line img {
-    width: 5%;
-    height: 25%;
-    background: white;
-    cursor: pointer;
-    padding-inline: 3%;
-    padding-block: 3%; }
+  justify-content: space-evenly;
+  z-index: 0;
+  padding-block: 2%;
+  margin-block: 1%; }
+  .swiper-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .swiper-container .swiper-slide img {
+      height: 15px;
+      background: white;
+      cursor: pointer; }
 
 @media (min-width: 1024px) {
   .logo-line {
@@ -248,8 +254,9 @@ main {
 
 .modal-container {
   position: absolute;
-  top: 20%;
-  left: 30%; }
+  top: 10%;
+  left: 10%;
+  z-index: 120; }
 
 .modal {
   display: none; }
@@ -305,7 +312,7 @@ main {
   .navigation p a {
     color: #fff;
     width: 100%;
-    z-index: 101;
+    z-index: 102;
     text-decoration: none;
     display: block;
     font-size: 15px;
@@ -324,10 +331,10 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 101; }
+  z-index: 102; }
   .toggle-button .wolverine {
     display: inline-block;
-    height: 26px;
+    height: 20px;
     padding: 0px 0px;
     cursor: pointer;
     -webkit-user-select: none;
@@ -349,16 +356,16 @@ main {
       overflow: hidden; }
     .toggle-button .wolverine .claws {
       position: relative;
-      top: -2px;
-      width: 20px;
-      height: 4px;
+      top: -5px;
+      width: 15px;
+      height: 3px;
       background: white;
       display: inline-block; }
       .toggle-button .wolverine .claws:before, .toggle-button .wolverine .claws:after {
         display: block;
         content: "";
-        height: 4px;
-        width: 20px;
+        height: 3px;
+        width: 15px;
         background: white;
         position: absolute;
         z-index: -1;
@@ -558,12 +565,46 @@ main {
           width: 25px;
           height: 20px; }
 
-.mobile-slider {
-  display: flex; }
+.slider {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin-block: 3%;
+  margin-inline: 5%; }
+  .slider .slide-1 {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    animation: rotate 7s ease-in-out infinite; }
+    .slider .slide-1 .slide-rank {
+      margin-right: 15px;
+      color: #dc1400; }
 
-@media (min-width: 1024px) {
-  .mobile-slider {
-    display: none; } }
+@keyframes rotate {
+  0% {
+    transform: translateY(0px); }
+  25%,
+  20% {
+    transform: translateY(-20px); }
+  46%,
+  40% {
+    transform: translateY(-40px); }
+  67%,
+  60% {
+    transform: translateY(-60px); }
+  80% {
+    transform: translateY(-80px); }
+  100% {
+    transform: translateY(0px); } }
 
 html {
   width: 100%;

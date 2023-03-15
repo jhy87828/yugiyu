@@ -1,16 +1,21 @@
-.logo-line {
+.swiper-container {
   background: white;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  img {
-    width: 5%;
-    height: 25%;
-    background: white;
-    cursor: pointer;
-    padding-inline: 3%;
-    padding-block: 3%;
+  z-index: 0;
+  padding-block: 2%;
+  margin-block: 1%;
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 15px;
+      background: white;
+      cursor: pointer;
+    }
   }
 }
 

@@ -1,27 +1,26 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
-      </style>
-  </head>
-  <body>
-    <header class="pc-header">
-      <div> 
-        <div>
-          <span>
-            <p>여기여 즐겨찾기 추가</p>
-          </span>
 
-          <span>
-            <svg
-              viewBox="328 355 335 276"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="#3BA9EE"
-            >
-              <path
-                d="
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+  </style>
+</head>
+
+<body>
+  <header class="pc-header">
+    <div>
+      <div>
+        <span>
+          <p>여기여 즐겨찾기 추가</p>
+        </span>
+
+        <span>
+          <svg viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg" fill="#3BA9EE">
+            <path d="
           M 630, 425
           A 195, 195 0 0 1 331, 600
           A 142, 142 0 0 0 428, 570
@@ -36,1372 +35,1426 @@
           A  65,  65 0 0 1 623, 401
           A 117, 117 0 0 0 662, 390
           A  65,  65 0 0 1 630, 425
-          Z"
-              />
-            </svg>
-            <p>여기여 트위터</p>
-          </span>
-        </div>
-        <div>
-          <span>
-            <p>로그인</p>
-          </span>
-          <span>
-            <p>회원가입</p>
-          </span>
-          <span>
-            <p>공지사항</p>
-          </span>
-          <span>
-            <p>광고/제휴문의</p>
+          Z" />
+          </svg>
+          <p>여기여 트위터</p>
+        </span>
+      </div>
+      <div>
+        <span>
+          <p>로그인</p>
+        </span>
+        <span>
+          <p>회원가입</p>
+        </span>
+        <span>
+          <p>공지사항</p>
+        </span>
+        <span>
+          <p>광고/제휴문의</p>
         </span>
       </div>
     </div>
-     
-    </header>
 
-    <header class="mobile-header">
-      <!-- <svg class="menu-button" viewBox="0 0 100 80" width="40" height="40" fill="#ffffff">
+  </header>
+
+  <header class="mobile-header">
+    <!-- <svg class="menu-button" viewBox="0 0 100 80" width="40" height="40" fill="#ffffff">
         <rect width="100" height="15"></rect>
         <rect y="30" width="100" height="15"></rect>
         <rect y="60" width="100" height="15"></rect>
       </svg> -->
 
-      <input type="checkbox" id="nav-control" class="nav-control" >
-      <label for="nav-control" class="toggle-button">
-        <div class="wolverine">
-          <div class="claws"></div> <span>menu</span>
-        </div>
-      </label>
-      <nav class="navigation">
-      
+    <input type="checkbox" id="nav-control" class="nav-control">
+    <label for="nav-control" class="toggle-button">
+      <div class="wolverine">
+        <div class="claws"></div> <span>menu</span>
+      </div>
+    </label>
+    <nav class="navigation">
+
       <a href="#">로그인</a>
       <a href="#/about">회원가입</a>
       <a href="#">Contact</a>
-      
-      </nav>
 
-    <div></div>
-    <div>
-        <span class="yw-cl circle1 round">
-          <p>여</p>
-        </span>
-        <span class="rd-cl circle2 round">
-          <p>기</p>
-        </span>
-        <span class="yw-cl circle3 round">
-          <p>여</p>
-        </span>
-      </div>
+    </nav>
 
-      <span>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" stroke="white" stroke-width="30">
-          <title>Abstract user icon</title>
-          <circle cx="300" cy="230" r="115"/>
-          <path d="M106.81863443903,481.4 a265,265 1 1,1 386.36273112194,0 a205,205 1 0,0 -386.36273112194,0 z" stroke-linejoin="round"/>
-        </svg>
+    <div class="logo">
+      <span class="yw-cl circle1 round">
+        <p>여</p>
       </span>
-     
-
-      
-    </header>
-
-    <section>
-      <div class="tripple-logo">
-        <span class="rd-cl circle1 round">
-          <p>여</p>
-        </span>
-        <span class="yw-cl circle2 round">
-          <p>기</p>
-        </span>
-        <span class="rd-cl circle3 round">
-          <p>여</p>
-        </span>
-      </div>
-      <div class="search-bar">
-        <div class="red-line" style="margin-right:5px;">
-          <p>구글</p>
-          <div>&#8964</div>
-        </div>
-        <span class="red-line">
-          <input style="padding-left:15px;" type="text" placeholder="검색어를 입력하세요." />
-          <button style="color:white">검색</button>
-        </span>
-      </div>
-      <div>
-        <div id="slider-container">
-          <div class="slider">
-            <div class="slide">Slide 1</div>
-            <div class="slide">Slide 2</div>
-            <div class="slide">Slide 3</div>
-          </div>
-          <button class="nav-arrow up">&uarr;</button>
-          <button class="nav-arrow down">&darr;</button>
-        </div>
-      </div>
-    </section>
-
-      
-    <div class="slider mobile-slider">
-      <div class="slide">Slide 1</div>
-      <div class="slide">Slide 2</div>
-      <div class="slide">Slide 3</div>
-
-      <button class="nav-arrow up">&uarr;</button>
-      <button class="nav-arrow down">&darr;</button>
+      <span class="rd-cl circle2 round">
+        <p>기</p>
+      </span>
+      <span class="yw-cl circle3 round">
+        <p>여</p>
+      </span>
     </div>
-  
+
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" stroke="white" stroke-width="30">
+        <title>Abstract user icon</title>
+        <circle cx="300" cy="230" r="115" />
+        <path d="M106.81863443903,481.4 a265,265 1 1,1 386.36273112194,0 a205,205 1 0,0 -386.36273112194,0 z"
+          stroke-linejoin="round" />
+      </svg>
+    </span>
+
+
+
+  </header>
+
+  <section>
+    <div class="tripple-logo">
+      <span class="rd-cl circle1 round">
+        <p>여</p>
+      </span>
+      <span class="yw-cl circle2 round">
+        <p>기</p>
+      </span>
+      <span class="rd-cl circle3 round">
+        <p>여</p>
+      </span>
+    </div>
+    <div class="search-bar">
+      <div class="red-line" style="margin-right:5px;">
+        <p>구글</p>
+        <div>&#8964</div>
+      </div>
+      <span class="red-line">
+        <input style="padding-left:15px;" type="text" placeholder="검색어를 입력하세요." />
+        <button style="color:white">검색</button>
+      </span>
+    </div>
+    <div>
+
+      <ol class="slider">
+        <li class="slide-1">
+          <p class="slide-rank">1.</p>
+          <p>구글</p>
+        </li>
+        <li class="slide-1">
+          <p class="slide-rank">2.</p>
+          <p>다음</p>
+        </li>
+        <li class="slide-1">
+          <p class="slide-rank">3.</p>
+          <p>네이버</p>
+        </li>
+        <li class="slide-1">
+          <p class="slide-rank">4.</p>
+          <p>facebook</p>
+        </li>
+        <li class="slide-1">
+          <p class="slide-rank">5.</p>
+          <p>Instagram</p>
+        </li>
+
+
+      </ol>
+      <!-- <button class="nav-arrow prev-1">&uarr;</button>
+            <button class="nav-arrow next-1">&darr;</button> -->
+
+  </section>
+
+
 
   <div class="modal-container">
 
-      <div class="modal open" id="modal-1">
-  
-          <img src="./img/20221010185329-popup.png"/>
-          <span>
-            <span>
-              <input type="checkbox"/>
-              <p>오늘 하루 이 창을 열지 않습니다.</p>    
-            </span>     
-            <p onclick="closeModal('modal-1')">닫기</p></span>
- 
-      </div>
+    <div class="modal open" id="modal-1">
 
-      <div class="modal open" id="modal-2">
-   
-        <img src="./img/20221224114137-popup.png"/>
-        <span>            
-            <span>
-              <input type="checkbox"/>
-              <p>오늘 하루 이 창을 열지 않습니다.</p>    
-          </span>     
-          <p onclick="closeModal('modal-2')">닫기</p>
-        </span>
-
-      </div>
-
-
-      <div class="modal open" id="modal-3">
-   
-        <img src="./img/20221224111940-popup.png"/>
+      <img src="./img/20221010185329-popup.png" />
+      <span>
         <span>
-          <span>
-            <input type="checkbox"/>
-            <p>오늘 하루 이 창을 열지 않습니다.</p>    
-          </span>  
-          <p onclick="closeModal('modal-3')">닫기</p></span>
-      
-     
-      </div>
+          <input type="checkbox" />
+          <p>오늘 하루 이 창을 열지 않습니다.</p>
+        </span>
+        <p onclick="closeModal('modal-1')">닫기</p>
+      </span>
+
+    </div>
+
+    <div class="modal open" id="modal-2">
+
+      <img src="./img/20221224114137-popup.png" />
+      <span>
+        <span>
+          <input type="checkbox" />
+          <p>오늘 하루 이 창을 열지 않습니다.</p>
+        </span>
+        <p onclick="closeModal('modal-2')">닫기</p>
+      </span>
+
+    </div>
+
+
+    <div class="modal open" id="modal-3">
+
+      <img src="./img/20221224111940-popup.png" />
+      <span>
+        <span>
+          <input type="checkbox" />
+          <p>오늘 하루 이 창을 열지 않습니다.</p>
+        </span>
+        <p onclick="closeModal('modal-3')">닫기</p>
+      </span>
+
+
+    </div>
 
   </div>
 
 
   <main>
-      <div class="logo-line">
-        <img src="./img/pci03.png" alt="MISSING IMG" />
-        <img src="./img/pci01.png" alt="MISSING IMG"/>
-        <img style="width:35px;" src="./img/pci02.png" alt="MISSING IMG" />
-        <img style="width:40px;" src="./img/pci04.png" alt="MISSING IMG" />
-        <img style="width:35px;" src="./img/pci05.png" alt="MISSING IMG" />
-        <img src="./img/pci06.png" alt="MISSING IMG" />
-        <img src="./img/pci07.png" alt="MISSING IMG" />
-        <img src="./img/pci08.png" alt="MISSING IMG" />
-        <img src="./img/pci09.png" alt="MISSING IMG" />
-      </div>
 
-    <div style=" margin-bottom:10px;">    
-      <div style="display:flex; flex-direction:row">  
-          <img width="50%" src="./img/20221010181725-banner-3.gif"/>
-          <img width="50%" src="./img//20230131100936-banner-2.gif"/>
+    <div class="swiper-container">
+
+      <!-- swiper slides -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/pci03.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/pci01.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img style="width:35px;" src="./img/pci02.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img style="width:40px;" src="./img/pci04.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img style="width:35px;" src="./img/pci05.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/pci06.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/pci07.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/pci08.png" alt="MISSING IMG" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/pci09.png" alt="MISSING IMG" />
+        </div>
+      </div>
+      <!-- !swiper slides -->
+
+      <!-- next / prev arrows -->
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+      <!-- !next / prev arrows -->
+
+      <!-- pagination dots -->
+      <!-- <div class="swiper-pagination"></div> -->
+      <!-- !pagination dots -->
+    </div>
+
+    <div style=" margin-bottom:10px;">
+      <div style="display:flex; flex-direction:row">
+        <img width="50%" src="./img/20221010181725-banner-3.gif" />
+        <img width="50%" src="./img//20230131100936-banner-2.gif" />
       </div>
 
       <div>
-          <img width="100%" src="./img/20221010181647-banner-5.gif"/>
+        <img width="100%" src="./img/20221010181647-banner-5.gif" />
       </div>
-    
+
     </div>
 
 
-      <div class="links">
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico04.png"/>
-              <p>웹툰 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">툰코</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">뉴토끼</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">펀비</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">섹툰</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">늑대닷컴</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>밤토끼</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>블랙툰</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>호두코믹스</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>야툰</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>여우코믹스</a>
-            </li>
-          </span>
-
-        </ul>
-
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico03.png"/>
-              <p>성인 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">조개모아</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">다크걸</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">빨간비디오</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86;">야동공장</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">야밤</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>조개파티</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>야판</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>색걸MV</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>두루마리</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>SIZE19</a>
-            </li>
-          </span>
-
-        </ul>
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico02.png"/>
-              <p>검증 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">먹튀중개소</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">월드슬롯</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">먹튀검증소</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">토토군</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">N토토</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>먹튀안내소</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>토토안내소</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>토토일보</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>토토마스터즈</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>배팅노리</a>
-            </li>
-          </span>
-
-        </ul>
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico01.png"/>
-              <p>드라마 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">소나기티비</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">코리안즈</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">티비아트</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">티비우산</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">티비박스</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>티비퐁</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>무로TV</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>공짜TV</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>청양티비</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>티비메카</a>
-            </li>
-          </span>
-
-        </ul>
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/t01-1.png"/>
-              <p>토렌트 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">토렌트큐큐</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">토다와</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">섹토렌트</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">토렌트킹</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">토렌트씨</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>토렌트마켓</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>토렌트다이아</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>토렌트썸</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>토렌트맥스</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>토렌트ICU</a>
-            </li>
-          </span>
-
-        </ul>
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico05.png"/>
-              <p>스포츠 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">쿨TV</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">라이브존티비</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">메이져</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">네네TV</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">굿라이브TV</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>해골TV</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>라이브스코어</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>토토쉐어</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>빅원티비</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>해축티비</a>
-            </li>
-          </span>
-
-        </ul>  
-        
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico03.png"/>
-              <p>오피 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">오피가이드</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">오피타임</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">밤의장군</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">충청도달리기</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">오피아트</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>즐거운달리기</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>오피놀자</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>햣타이</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>오피스타</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>벌렁이</a>
-            </li>
-          </span>
-
-        </ul>
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico06.png"/>
-              <p>커뮤니티 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">인벤</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">일간베스트</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">디시인사이드 갤러리</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">졸잼</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">이토랜드</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>웃긴대학</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>츄잉</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>모해유머</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>가생이닷컴</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>에펨코리아</a>
-            </li>
-          </span>
-
-        </ul>
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico03.png"/>
-              <p>성인용품 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">야나도</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">로맨스몰</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">나이트몰</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">약팜</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">토이러브</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>카마그라</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>바나나몰</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>핑크박스샵</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>응큼샵</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>찐바나나몰</a>
-            </li>
-          </span>
-        </ul>
-
-
-        <ul>
-          <span>
-            <div>  
-              <img src="./img/ico03.png"/>
-              <p>한인교민 Top10 </p>
-            </div>
-            <a href="#" class="next">
-              <p>&rsaquo;</p>
-            </a>
-          </span>
-          <span class="rank">
-            <li>
-              <img src="./img/1.png"/>
-              <a style="color:#ff3085">[네덜란드]데일리NL</a>
-            </li>
-            <li>
-              <img src="./img/2.png"/>
-              <a style="color:#5ebf39">[뉴질랜드]오클랜드</a>
-            </li>
-            <li>
-              <img src="./img/3.png"/>
-              <a style="color:#0054ff">[뉴질랜드]뉴질랜드타임</a>
-            </li>
-            <li>
-              <img src="./img/4.png"/>
-              <a style="color:#560a86">[덴마크]NAKED</a>
-            </li>
-            <li>
-              <img src="./img/5.png"/>
-              <a style="color:#017297">[뉴질랜드]코리아포스트</a>
-            </li>
-            <li>
-              <img src="./img/6.png"/>
-              <a>[러시아]코리언스</a>
-            </li>
-            <li>
-              <img src="./img/7.png"/>
-              <a>[독일]구텐탁코리아</a>
-            </li>
-            <li>
-              <img src="./img/8.png"/>
-              <a>[독일]교포신문</a>
-            </li>
-            <li>
-              <img src="./img/9.png"/>
-              <a>[미국]뉴욕코리아</a>
-            </li>
-            <li>
-              <img src="./img/10.png"/>
-              <a>[베트남]베트남투데이</a>
-            </li>
-          </span>
-
-        </ul>
-
-      </div>
-    
-
-      <div class="sub-links">
-
-
-        <ul>
+    <div class="links">
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico01.png"/>
-            <p>쇼핑/패션</p></div>
-          <span>
-            <li>
-              <p>G마켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥션</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>11번가</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>쿠팡</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>다나와</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>티몬</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>현대홈쇼핑</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Cjmall</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>아웃도어스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>팝콘피씨</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>롯데닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>위메프</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>올리브영</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신라인터넷면세점</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계몰</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>큐텐</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>무신사스토어</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>더현대닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계인터내셔날</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>비트웹</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/ico04.png" />
+            <p>웹툰 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">툰코</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">뉴토끼</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">펀비</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">섹툰</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">늑대닷컴</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>밤토끼</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>블랙툰</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>호두코믹스</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>야툰</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>여우코믹스</a>
+          </li>
+        </span>
 
-        <ul>
+      </ul>
+
+
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico02.png"/>
-            <p>영화/TV</p></div>
-          <span>
-            <li>
-              <p>원프로티비</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>메가박스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>씨네큐브</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>네이버영화</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>다음영화</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>네이트영화</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>씨네21</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>롯데시네마</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>넷플릭스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>HBO</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Popcornflix</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>ROKU</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Vudu</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>SnagFilms</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Yidio</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Pluto TV</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Tubi TV</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>판도라 TV</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥수수 TV</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>현대 HNC TV</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/ico03.png" />
+            <p>성인 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">조개모아</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">다크걸</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">빨간비디오</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86;">야동공장</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">야밤</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>조개파티</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>야판</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>색걸MV</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>두루마리</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>SIZE19</a>
+          </li>
+        </span>
 
-        <ul>
+      </ul>
+
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico03.png"/>
-            <p>음악/예술</p></div>
-          <span>
-            <li>
-              <p>벅스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>멜론</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>지니</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>소리바다</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>엠넷</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>인라이브</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>올레뮤직</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>네이버뮤직</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>플로</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>카카오뮤직</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>인터파크티켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>티켓링크</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>YES24</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥션티켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계몰</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>큐텐</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>무신사스토어</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>더현대닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계인터내셔날</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>비트웹</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/ico02.png" />
+            <p>검증 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">먹튀중개소</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">월드슬롯</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">먹튀검증소</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">토토군</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">N토토</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>먹튀안내소</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>토토안내소</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>토토일보</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>토토마스터즈</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>배팅노리</a>
+          </li>
+        </span>
 
-        <ul>
+      </ul>
+
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico01.png"/>
-            <p>쇼핑/패션</p></div>
-          <span>
-            <li>
-              <p>G마켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥션</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>11번가</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>쿠팡</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>다나와</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>티몬</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>현대홈쇼핑</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Cjmall</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>아웃도어스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>팝콘피씨</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>롯데닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>위메프</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>올리브영</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신라인터넷면세점</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계몰</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>큐텐</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>무신사스토어</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>더현대닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계인터내셔날</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>비트웹</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/ico01.png" />
+            <p>드라마 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">소나기티비</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">코리안즈</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">티비아트</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">티비우산</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">티비박스</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>티비퐁</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>무로TV</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>공짜TV</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>청양티비</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>티비메카</a>
+          </li>
+        </span>
 
-        <ul>
+      </ul>
+
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico01.png"/>
-            <p>쇼핑/패션</p></div>
-          <span>
-            <li>
-              <p>G마켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥션</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>11번가</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>쿠팡</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>다나와</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>티몬</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>현대홈쇼핑</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Cjmall</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>아웃도어스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>팝콘피씨</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>롯데닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>위메프</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>올리브영</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신라인터넷면세점</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계몰</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>큐텐</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>무신사스토어</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>더현대닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계인터내셔날</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>비트웹</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/t01-1.png" />
+            <p>토렌트 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">토렌트큐큐</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">토다와</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">섹토렌트</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">토렌트킹</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">토렌트씨</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>토렌트마켓</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>토렌트다이아</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>토렌트썸</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>토렌트맥스</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>토렌트ICU</a>
+          </li>
+        </span>
 
-        <ul>
+      </ul>
+
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico01.png"/>
-            <p>쇼핑/패션</p></div>
-          <span>
-            <li>
-              <p>G마켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥션</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>11번가</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>쿠팡</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>다나와</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>티몬</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>현대홈쇼핑</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Cjmall</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>아웃도어스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>팝콘피씨</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>롯데닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>위메프</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>올리브영</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신라인터넷면세점</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계몰</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>큐텐</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>무신사스토어</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>더현대닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계인터내셔날</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>비트웹</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/ico05.png" />
+            <p>스포츠 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">쿨TV</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">라이브존티비</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">메이져</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">네네TV</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">굿라이브TV</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>해골TV</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>라이브스코어</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>토토쉐어</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>빅원티비</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>해축티비</a>
+          </li>
+        </span>
 
-        <ul>
+      </ul>
+
+      <ul>
+        <span>
           <div>
-            <img src="./img/etcico01.png"/>
-            <p>쇼핑/패션</p></div>
-          <span>
-            <li>
-              <p>G마켓</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>옥션</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>11번가</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>쿠팡</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>다나와</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>티몬</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>현대홈쇼핑</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>Cjmall</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>아웃도어스</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>팝콘피씨</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>롯데닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>위메프</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>올리브영</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신라인터넷면세점</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계몰</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>큐텐</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>무신사스토어</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>더현대닷컴</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>신세계인터내셔날</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-            <li>
-              <p>비트웹</p>
-              <i class="fa-solid fa-chevron-right">&rsaquo;</i>
-            </li>
-          </span>
-        </ul>
+            <img src="./img/ico03.png" />
+            <p>오피 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">오피가이드</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">오피타임</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">밤의장군</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">충청도달리기</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">오피아트</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>즐거운달리기</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>오피놀자</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>햣타이</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>오피스타</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>벌렁이</a>
+          </li>
+        </span>
 
-      </div>
-    </main>
-    <footer>
-      <p>여기여는 게재된 사이트들과 직접적인 연관이 없는 링크/중개사이트입니다.</p>
-      <p>Copyright © 2020 여기여.com. All rights reserved.</p>
-    </footer>
-    <script src="./app.js"></script>
-  </body>
+      </ul>
+
+      <ul>
+        <span>
+          <div>
+            <img src="./img/ico06.png" />
+            <p>커뮤니티 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">인벤</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">일간베스트</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">디시인사이드 갤러리</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">졸잼</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">이토랜드</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>웃긴대학</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>츄잉</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>모해유머</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>가생이닷컴</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>에펨코리아</a>
+          </li>
+        </span>
+
+      </ul>
+
+      <ul>
+        <span>
+          <div>
+            <img src="./img/ico03.png" />
+            <p>성인용품 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">야나도</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">로맨스몰</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">나이트몰</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">약팜</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">토이러브</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>카마그라</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>바나나몰</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>핑크박스샵</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>응큼샵</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>찐바나나몰</a>
+          </li>
+        </span>
+      </ul>
+
+
+      <ul>
+        <span>
+          <div>
+            <img src="./img/ico03.png" />
+            <p>한인교민 Top10 </p>
+          </div>
+          <a href="#" class="next">
+            <p>&rsaquo;</p>
+          </a>
+        </span>
+        <span class="rank">
+          <li>
+            <img src="./img/1.png" />
+            <a style="color:#ff3085">[네덜란드]데일리NL</a>
+          </li>
+          <li>
+            <img src="./img/2.png" />
+            <a style="color:#5ebf39">[뉴질랜드]오클랜드</a>
+          </li>
+          <li>
+            <img src="./img/3.png" />
+            <a style="color:#0054ff">[뉴질랜드]뉴질랜드타임</a>
+          </li>
+          <li>
+            <img src="./img/4.png" />
+            <a style="color:#560a86">[덴마크]NAKED</a>
+          </li>
+          <li>
+            <img src="./img/5.png" />
+            <a style="color:#017297">[뉴질랜드]코리아포스트</a>
+          </li>
+          <li>
+            <img src="./img/6.png" />
+            <a>[러시아]코리언스</a>
+          </li>
+          <li>
+            <img src="./img/7.png" />
+            <a>[독일]구텐탁코리아</a>
+          </li>
+          <li>
+            <img src="./img/8.png" />
+            <a>[독일]교포신문</a>
+          </li>
+          <li>
+            <img src="./img/9.png" />
+            <a>[미국]뉴욕코리아</a>
+          </li>
+          <li>
+            <img src="./img/10.png" />
+            <a>[베트남]베트남투데이</a>
+          </li>
+        </span>
+
+      </ul>
+
+    </div>
+
+
+    <div class="sub-links">
+
+
+      <ul>
+        <div>
+          <img src="./img/etcico01.png" />
+          <p>쇼핑/패션</p>
+        </div>
+        <span>
+          <li>
+            <p>G마켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥션</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>11번가</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>쿠팡</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>다나와</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>티몬</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>현대홈쇼핑</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Cjmall</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>아웃도어스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>팝콘피씨</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>롯데닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>위메프</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>올리브영</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신라인터넷면세점</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계몰</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>큐텐</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>무신사스토어</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>더현대닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계인터내셔날</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>비트웹</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+      <ul>
+        <div>
+          <img src="./img/etcico02.png" />
+          <p>영화/TV</p>
+        </div>
+        <span>
+          <li>
+            <p>원프로티비</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>메가박스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>씨네큐브</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>네이버영화</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>다음영화</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>네이트영화</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>씨네21</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>롯데시네마</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>넷플릭스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>HBO</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Popcornflix</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>ROKU</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Vudu</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>SnagFilms</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Yidio</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Pluto TV</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Tubi TV</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>판도라 TV</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥수수 TV</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>현대 HNC TV</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+      <ul>
+        <div>
+          <img src="./img/etcico03.png" />
+          <p>음악/예술</p>
+        </div>
+        <span>
+          <li>
+            <p>벅스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>멜론</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>지니</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>소리바다</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>엠넷</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>인라이브</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>올레뮤직</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>네이버뮤직</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>플로</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>카카오뮤직</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>인터파크티켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>티켓링크</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>YES24</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥션티켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계몰</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>큐텐</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>무신사스토어</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>더현대닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계인터내셔날</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>비트웹</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+      <ul>
+        <div>
+          <img src="./img/etcico01.png" />
+          <p>쇼핑/패션</p>
+        </div>
+        <span>
+          <li>
+            <p>G마켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥션</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>11번가</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>쿠팡</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>다나와</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>티몬</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>현대홈쇼핑</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Cjmall</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>아웃도어스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>팝콘피씨</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>롯데닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>위메프</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>올리브영</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신라인터넷면세점</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계몰</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>큐텐</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>무신사스토어</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>더현대닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계인터내셔날</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>비트웹</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+      <ul>
+        <div>
+          <img src="./img/etcico01.png" />
+          <p>쇼핑/패션</p>
+        </div>
+        <span>
+          <li>
+            <p>G마켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥션</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>11번가</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>쿠팡</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>다나와</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>티몬</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>현대홈쇼핑</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Cjmall</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>아웃도어스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>팝콘피씨</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>롯데닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>위메프</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>올리브영</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신라인터넷면세점</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계몰</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>큐텐</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>무신사스토어</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>더현대닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계인터내셔날</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>비트웹</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+      <ul>
+        <div>
+          <img src="./img/etcico01.png" />
+          <p>쇼핑/패션</p>
+        </div>
+        <span>
+          <li>
+            <p>G마켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥션</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>11번가</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>쿠팡</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>다나와</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>티몬</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>현대홈쇼핑</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Cjmall</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>아웃도어스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>팝콘피씨</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>롯데닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>위메프</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>올리브영</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신라인터넷면세점</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계몰</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>큐텐</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>무신사스토어</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>더현대닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계인터내셔날</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>비트웹</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+      <ul>
+        <div>
+          <img src="./img/etcico01.png" />
+          <p>쇼핑/패션</p>
+        </div>
+        <span>
+          <li>
+            <p>G마켓</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>옥션</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>11번가</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>쿠팡</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>다나와</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>티몬</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>현대홈쇼핑</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>Cjmall</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>아웃도어스</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>팝콘피씨</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>롯데닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>위메프</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>올리브영</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신라인터넷면세점</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계몰</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>큐텐</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>무신사스토어</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>더현대닷컴</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>신세계인터내셔날</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+          <li>
+            <p>비트웹</p>
+            <i class="fa-solid fa-chevron-right">&rsaquo;</i>
+          </li>
+        </span>
+      </ul>
+
+    </div>
+  </main>
+  <footer>
+    <p>여기여는 게재된 사이트들과 직접적인 연관이 없는 링크/중개사이트입니다.</p>
+    <p>Copyright © 2020 여기여.com. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+
 </html>

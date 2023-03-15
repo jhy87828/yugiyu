@@ -1,22 +1,6 @@
-// const modals = document.querySelectorAll("[data-modal]");
-
-// modals.forEach(function (trigger) {
-//   trigger.addEventListener("click", function (event) {
-//     event.preventDefault();
-//     const modal = document.getElementById(trigger.dataset.modal);
-//     modal.classList.add("open");
-//     const exits = modal.querySelectorAll(".modal-exit");
-//     exits.forEach(function (exit) {
-//       exit.addEventListener("click", function (event) {
-//         event.preventDefault();
-//         modal.classList.remove("open");
-//       });
-//     });
-//   });
-// });
-
+// modal
 const modals = document.querySelectorAll(".modal");
-const menuButton = document.querySelectorAll(".menu-button");
+const menuButtons = document.querySelectorAll(".menu-button");
 const mobileMenu = document.querySelector(".mobile-menu");
 
 function closeModal(id) {
@@ -29,14 +13,51 @@ menuButtons.forEach((button) => {
   });
 });
 
-// modals.forEach((modal) => {
-//   modal.querySelector("button").addEventListener("click", () => {
-//     closeModal(modal.classList[1]);
-//   });
+// pc slider
+// const slides = document.querySelectorAll(".slide-1");
 
-//   modal.addEventListener("click", (event) => {
-//     if (event.target === modal) {
-//       closeModal(modal.classList[1]);
+// let counter = 1;
+
+// const timer = () => {
+//   setInterval(() => {
+//     if (counter > slides.length - 1) {
+//       counter = 1;
+//       console.log(counter);
+//       carouselTiming();
+//     } else {
+//       counter++;
+//       console.log(counter);
+//       carouselTiming();
 //     }
+//   }, 1000);
+// };
+
+// const carouselTiming = () => {
+//   slides.forEach(function (slide) {
+//     slide.style.transform = `translateY(-${counter * 100}%)`;
+
 //   });
-// });
+// };
+
+// timer();
+
+var Swipes = new Swiper(".swiper-container", {
+  slidesPerView: 4,
+  spaceBetween: 0,
+  loop: true,
+  cssMode: true,
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  // },
+  mousewheel: true,
+  keyboard: true,
+  breakpoints: {
+    1024: {
+      slidesPerView: 9,
+    },
+  },
+});
