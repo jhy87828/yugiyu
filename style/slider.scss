@@ -1,0 +1,9 @@
+.mobile-slider {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .mobile-slider {
+    display: none;
+  }
+}

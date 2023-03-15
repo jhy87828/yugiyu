@@ -35,29 +35,37 @@
     display: none;
   }
   .pc-header {
+    font-family: "Noto Sans KR", sans-serif;
+    width: 100%;
     background: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 2%;
+
     border-bottom: 1px solid #ebebeb;
     div {
+      width: 100%;
       display: flex;
-      span {
-        display: flex;
-        align-items: center;
-        padding-inline: 10px;
-        padding-block: 10px;
-        font-weight: 700;
-        font-size: 12px;
-        p {
-          width: 100%;
-          color: #858585;
-        }
-        svg {
-          width: 20px;
-          height: 20px;
+      justify-content: space-between;
+      padding-inline: 4%;
+      div {
+        width: auto;
+        span {
+          display: flex;
+          align-items: center;
+          padding-inline: 10px;
+          padding-block: 10px;
+          font-weight: 700;
+          font-size: 12px;
+          p {
+            width: 100%;
+            color: #858585;
+          }
+          svg {
+            width: 20px;
+            height: 20px;
+          }
         }
       }
     }

@@ -5,6 +5,9 @@
 @import "./logo-line.scss";
 @import "./modal.scss";
 @import "./mobile-menu.scss";
+@import "./links.scss";
+@import "./sub-links.scss";
+@import "./slider.scss";
 
 html {
   width: 100%;
@@ -14,11 +17,22 @@ html {
   margin: 0;
 }
 body {
-  background: #ebebeb;
+  background: #f9f9f9;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   margin: 0;
   overflow: scroll;
+}
+footer {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 5%;
+  p {
+    margin: 0;
+  }
 }
